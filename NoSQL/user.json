@@ -1,0 +1,58 @@
+{
+    "_id": 1,
+    "nome": "Usuario",
+    "idade": 30,
+    "data_nascimento": "1992-10-05",
+    "enderecos": [{
+       "logradouro": "Rua Sem Nome A",
+       "numero": 37,
+       "bairro": "João XXIII",
+       "cidade": "Caicó",
+       "uf": "RN"
+      }],
+      "interesses": ["jiu-jitsu", "games"],
+      "reservas": [{
+        "data_reserva": "2023-17-10",
+        "status": "pendente",
+        "destino": [ "ObjectID('123')",  "ObjectID('456')" ]
+        }]
+}
+
+{
+    "_id": ObjectId('123'),
+    "destino": ObjectId('456'),
+    "data": "2023-17-10",
+    "status": "pendente",
+    "usuario": ObjectId('345')
+}
+
+
+
+{
+    "_id": 1,
+    "nome": "Usuario",
+    "idade": 30,
+    "data_nascimento": "1992-10-05",
+    "enderecos": [{
+       "logradouro": "Rua Sem Nome A",
+       "numero": 37,
+       "bairro": "João XXIII",
+       "cidade": "Caicó",
+       "uf": "RN"
+      }],
+      "interesses": ["jiu-jitsu", "games"],
+      "reservas": [{
+        "data_reserva": "2023-17-10",
+        "status": "pendente",
+        "destino": "ObjectID('1234')"}]
+}
+
+{
+    "_id": 1,
+    "nome": "Ilha de Santana",
+    "descricao": "Principal ponto turístico da Cidade",
+    "localizacao": {
+        "type": "Point",
+        "coordinates": [-6.457243840188195, -37.08993830317517] 
+    }
+}
